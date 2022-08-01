@@ -1,0 +1,23 @@
+<header>
+    <h1>Signup</h1>
+</header>
+<body>
+    <form>
+        <mat-form-field appearance="fill">
+            <mat-label>User</mat-label>
+            <input matInput placeholder="Ex. edu123">
+        </mat-form-field>
+
+        <mat-form-field appearance="fill">
+            <mat-label>Password</mat-label>
+            <input matInput type="password">
+        </mat-form-field>
+
+        <mat-form-field appearance="fill">
+            <mat-label>Confirm Password</mat-label>
+            <input matInput type="password">
+        </mat-form-field>
+        <button mat-stroked-button color="primary"
+        (click)="routerService.goTo('login')">Enter</button>
+    </form>
+</body>

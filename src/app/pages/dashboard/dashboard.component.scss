@@ -1,0 +1,26 @@
+header {
+    margin: 2%;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 1rem;
+    margin: 1%;
+}
+
+table {
+    width: 100%;
+}
+
+.add-icon {
+    position: sticky;
+    bottom: 1rem;
+    float: right;
+    right: 1rem;
+}
+
+.table-card {
+    width: 100%;
+}
